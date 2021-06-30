@@ -28,31 +28,31 @@ nav .bluetext {
 }
 nav .navlinks {
   background-color: #4cc1f6;
-  padding: 10px;
+  padding: 11px;
   color: white;
   border-radius: 50%;
 }
 nav .navlinkfb {
   background-color: #4cc1f6;
-  padding-right: 11.5px;
-  padding-left: 11.5px;
-  padding-top: 9.8px;
-  padding-bottom: 9.8px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   color: white;
   border-radius: 50%;
 }
 nav .navlinkswhite {
   background-color: white;
-  padding: 10px;
+  padding: 11px;
   color: #4cc1f6;
   border-radius: 50%;
 }
 nav .navlinkfbwhite {
   background-color: white;
-  padding-right: 11.5px;
-  padding-left: 11.5px;
-  padding-top: 9.8px;
-  padding-bottom: 9.8px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   color: #4cc1f6;
   border-radius: 50%;
 }
@@ -325,19 +325,20 @@ nav .navtogglerx {
 }
 #footer .navlinks {
   background-color: #4cc1f6;
-  padding: 10px;
+  padding: 11px;
   color: white;
   border-radius: 50%;
 }
 #footer .navlinkfb {
   background-color: #4cc1f6;
-  padding-right: 11.5px;
-  padding-left: 11.5px;
-  padding-top: 9.8px;
-  padding-bottom: 9.8px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 11px;
+  padding-bottom: 11px;
   color: white;
   border-radius: 50%;
 }
+
 .bluetext {
   color: #4cc1f6;
 }
@@ -349,7 +350,7 @@ nav .navtogglerx {
 @media only screen and (min-width: 992px) {
   /*NAV*/
   nav .navlinksmargin {
-    margin-left: 150px;
+    margin-left: 149px;
   }
   nav .active {
     color: #4cc1f6;
@@ -427,8 +428,8 @@ nav .navtogglerx {
     display: none;
   }
   /*-------*/
-  #footer.footercontact {
-    padding-top: 250;
+  .footercontact {
+    margin-top: 190px;
   }
 }
 
@@ -570,6 +571,19 @@ nav .navtogglerx {
   #sroom .moresearch {
     margin-top: 10px;
   }
+  .col1 {
+    order: 2;
+  }
+  .col2 {
+    order: 1;
+  }
+  /*------*/
+  /*CONTACT*/
+  #contact .bgwhitecontact {
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
   /*------*/
   /*FOOTER*/
   #footer .footerimages {
@@ -580,6 +594,7 @@ nav .navtogglerx {
     margin-right: auto;
     margin-bottom: 20px;
   }
+
   /*------*/
 }
 
