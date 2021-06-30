@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: #dddddd;
+  font-family: "Roboto", sans-serif;
+}
+.titles {
+  font-family: "Playfair Display", serif;
+}
+.w-150 {
+  width: 150%;
+}
+.w-35 {
+  width: 35%;
+}
+/*NAVBAR*/
+nav .brandtext {
+  color: black;
+  font-size: 40px;
+}
+nav .dropstart::before {
+  content: none;
+}
+nav .bluetext {
+  color: #4cc1f6;
+  font-size: 21px;
+}
+nav .navlinks {
+  background-color: #4cc1f6;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+nav .navlinkfb {
+  background-color: #4cc1f6;
+  padding-right: 11.5px;
+  padding-left: 11.5px;
+  padding-top: 9.8px;
+  padding-bottom: 9.8px;
+  color: white;
+  border-radius: 50%;
+}
+nav .navlinkswhite {
+  background-color: white;
+  padding: 10px;
+  color: #4cc1f6;
+  border-radius: 50%;
+}
+nav .navlinkfbwhite {
+  background-color: white;
+  padding-right: 11.5px;
+  padding-left: 11.5px;
+  padding-top: 9.8px;
+  padding-bottom: 9.8px;
+  color: #4cc1f6;
+  border-radius: 50%;
+}
+nav .navlinkblack {
+  color: black;
+}
+nav .navmenubar {
+  background-color: #4cc1f6;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+}
+nav .navmenubar1 {
+  background-color: #4cc1f6;
+  color: white;
+  padding: 16px;
+  border-radius: 50%;
+}
+nav .navtogglerx {
+  background-color: #4cc1f6;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border-radius: 50%;
+}
+
+.hide {
+  display: none;
+}
+.togglenav a {
+  text-decoration: none;
+}
+.togglenav .textwhite {
+  color: white;
+}
+.darkerbluebg {
+  background-color: #4cc1f6;
+}
+/*------*/
+/*INDEX*/
+#indexheader {
+  background-image: url("../img/indexheader.png");
+  min-height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#indexheader .bluebox {
+  background-color: #4cc1f6;
+  color: white;
+  opacity: 0.8;
+  padding: 90px 30px 90px 30px;
+}
+#carousel a {
+  text-decoration: none;
+}
+#carousel .avatar {
+  height: 50px !important;
+}
+/*------*/
+/*KerdesekEsValaszokFormPage*/
+.formtext {
+  font-size: 20px;
+}
+.lightbluecolor {
+  color: #4cc1f6;
+}
+.roundedbutton {
+  border-radius: 40px;
+  background-color: #4cc1f6;
+  color: white;
+}
+/*------*/
+
+/*KapcsolatPage*/
+#contact .contacttitle {
+  font-weight: 800;
+  font-size: 20px;
+}
+/*------*/
+/*ModositasiInditvanyokPage*/
+#modind .widgets {
+  background-color: #bbe6fa;
+  color: #4cc1f6;
+  border-radius: 40px;
+}
+#modind .widgets2 {
+  background-color: #bbe6fa;
+}
+#modind .texttitles {
+  font-size: 22px;
+  font-weight: bold;
+}
+#modind .date {
+  font-size: 22px;
+  color: #4cc1f6;
+}
+#modind .mandate {
+  font-size: 22px;
+}
+.pagi a {
+  text-decoration: none;
+}
+.pagi .active {
+  border-radius: 50%;
+  color: white;
+  padding-right: 11px;
+  padding-left: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #4cc1f6;
+  margin-top: -5px;
+}
+/*-------*/
+/*TALKS*/
+#talks .widgets {
+  background-color: #bbe6fa;
+  color: #4cc1f6;
+  border-radius: 40px;
+}
+#talks .titles {
+  font-family: "Playfair Display", serif;
+}
+#talks .widgets2 {
+  background-color: #bbe6fa;
+}
+#talks .texttitles {
+  font-size: 22px;
+  font-weight: bold;
+}
+#talks .date {
+  font-size: 22px;
+  color: #4cc1f6;
+}
+#talks .mandate {
+  font-size: 22px;
+}
+/*-------*/
+/*SROOM*/
+#sroom .widgets {
+  background-color: #bbe6fa;
+  color: #4cc1f6;
+  border-radius: 40px;
+}
+#sroom .widgets2 {
+  background-color: #bbe6fa;
+}
+#sroom .date {
+  font-size: 22px;
+  color: #4cc1f6;
+}
+#sroom .VMA {
+  font-size: 22px;
+}
+#sroom .texttitles {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/*------*/
+/*MIKROBLOG*/
+#mikroblog a {
+  text-decoration: none;
+}
+/*------*/
+/*ABOUTME*/
+#aboutme .bggray {
+  background-color: #a6e3ff;
+}
+#aboutme .badges {
+  background-color: #cdefff;
+  color: #4cc1f6;
+  font-size: 15px;
+}
+.bgwhite {
+  background-color: white;
+}
+/*------*/
+/*SCHOOLVISIT*/
+#schoolvisit .disq {
+  width: 50px;
+  height: 50px;
+}
+#schoolvisit .schoolvisiticons {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+}
+#schoolvisit .twitter {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #4cc1f6;
+  color: white;
+}
+#schoolvisit .google {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+#schoolvisit .questionmark {
+  border-radius: 50%;
+  border: 1px solid black;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#schoolvisit .smalldisq {
+  width: 25px;
+  height: 25px;
+}
+#schoolvisit .redheart {
+  color: red;
+}
+#schoolvisit p.hover:hover {
+  border-bottom: 3px solid rgb(124, 204, 250);
+  cursor: pointer;
+}
+/*------*/
+/*QUESTION AND ANSWERES*/
+.questionanswer {
+  background-color: #cdefff;
+}
+.qabutton {
+  border-radius: 40px;
+  border: 1px solid #4cc1f6;
+  background-color: white;
+  color: #4cc1f6;
+}
+/*------*/
+/*QA*/
+#qa .avatar {
+  height: 50px;
+}
+/*------*/
+/*CALENDAR*/
+.cal {
+  height: 25px;
+}
+/*--------*/
+/*FOOTER*/
+
+#footer {
+  min-height: 9vh;
+}
+.bglightblue {
+  background-color: #bbe6fa;
+}
+#footer .navlinks {
+  background-color: #4cc1f6;
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+#footer .navlinkfb {
+  background-color: #4cc1f6;
+  padding-right: 11.5px;
+  padding-left: 11.5px;
+  padding-top: 9.8px;
+  padding-bottom: 9.8px;
+  color: white;
+  border-radius: 50%;
+}
+.bluetext {
+  color: #4cc1f6;
+}
+
+/*------*/
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 992px) {
+  /*NAV*/
+  nav .navlinksmargin {
+    margin-left: 150px;
+  }
+  nav .active {
+    color: #4cc1f6;
+  }
+  nav .dropmenu {
+    margin-top: 500px;
+  }
+  nav .linkhide {
+    display: none;
+  }
+  /*-------*/
+  /*INDEX*/
+  #indexheader .bluebox {
+    margin-top: 250px;
+  }
+  #videos #my-video {
+    width: 280px;
+    height: 150px;
+  }
+  #carousel .avatar1 {
+    height: 50px;
+    width: 50px;
+  }
+  #carousel {
+    margin-top: -150px;
+  }
+  
+  /*-----*/
+  /*-----*/
+  /*KerdesekEsValaszokFormPage*/
+  .mx {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  /*ABOUTME*/
+  #aboutme .mx {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  /*-------*/
+  /*-----*/
+  /*FOOTER*/
+  #footer .footerlinks {
+    margin-left: auto;
+  }
+  /*-----*/
+  /*MODIND*/
+  #modind .mx {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .pagi {
+    margin-left: 100px;
+  }
+  /*-----*/
+  /*MIKROBLOG*/
+  #mikroblog .pagi {
+    margin-left: 160px;
+  }
+  #mikroblog .avatar {
+    height: 50px;
+  }
+  /*------*/
+  /*SCHOOLVISIT*/
+  #schoolvisit .avatar {
+    height: 50px;
+  }
+  #schoolvisit .schoolvisithide {
+    display: none;
+  }
+  /*-------*/
+  #footer.footercontact {
+    padding-top: 250;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /*NAV*/
+  nav .navmenubar1 {
+    display: none;
+  }
+  nav .navtogglerx {
+    display: none;
+  }
+  nav #navbarNav {
+    background-color: #4cc1f6;
+    width: 100%;
+  }
+  .hideresp {
+    display: none;
+  }
+  nav .navlinkhide {
+    display: none;
+  }
+  nav .hideline {
+    display: none;
+  }
+  nav .linkresp {
+    margin-left: 15px;
+  }
+  nav .navlinkblack {
+    color: white;
+  }
+  /*------*/
+  /*BREADCRUMB*/
+  .breadcrumb {
+    display: none;
+  }
+  /*------*/
+  /*INDEX*/
+  #indexheader .bluebox {
+    margin-top: 450px;
+  }
+  #indexheader {  
+    background-image: url("../img/Frame217.png");
+    min-height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #videos #my-video {
+    width: 370px;
+    height: 180px;
+  }
+  #carousel .avatar1 {
+    height: 50px;
+    width: 50px;
+  }
+  .indexvmszlogo {
+    display: none;
+  }
+  .owl-prev i,
+  .owl-next i {
+    display: none;
+  }
+  .owl-prev,
+  .owl-next {
+    display: none;
+  }
+  /*-------*/
+  /*MIKROBLOG*/
+  #mikroblog .avatar {
+    height: 50px;
+  }
+  /*SCHOOLVISIT*/
+  #schoolvisit .avatar {
+    height: 50px;
+  }
+  #schoolvisit .userpicture {
+    display: none;
+  }
+  #schoolvisit textarea {
+    height: 30px;
+  }
+  /*-------*/
+
+  /*------*/
+  /*ABOUTME*/
+  #aboutme .badges {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #aboutme .badgescont {
+    text-align: center;
+  }
+  #aboutme .profiles {
+    display: none;
+  }
+  #aboutme .aboutmecol1 {
+    order: 2;
+  }
+  #aboutme .aboutmecol2 {
+    order: 1;
+  }
+  #aboutme .titlesdown {
+    margin-top: 60px;
+  }
+  /*------*/
+  /*SCHOOLVISIT*/
+  #schoolvisit .disqtext {
+    font-size: 30px;
+  }
+  /*-------*/
+  /*QA*/
+  #qa .avatar {
+    height: 50px;
+  }
+  /*--------*/
+  /*TALKS*/
+  #talks .widgetsmobile {
+    justify-content: center;
+  }
+  #talks .moresearch {
+    margin-top: 10px;
+  }
+  #talks .talksimg{
+    width: 100%;
+  }
+  /*------*/
+  /*MODINT*/
+  #modind .widgetsmobile {
+    justify-content: center;
+  }
+  #modind .moresearch {
+    margin-top: 10px;
+  }
+  /*------*/
+  /*SROOM*/
+  #sroom .widgetsmobile {
+    justify-content: center;
+  }
+  #sroom .moresearch {
+    margin-top: 10px;
+  }
+  /*------*/
+  /*FOOTER*/
+  #footer .footerimages {
+    display: none;
+  }
+  #footer .footerlinks {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  /*------*/
+}
+
+/*------*/
+@media only screen and (max-width: 1500px) {
+  nav .navlinksmarginresp {
+   display: none;
+  }
+}

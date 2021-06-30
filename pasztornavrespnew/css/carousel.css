@@ -1,0 +1,26 @@
+.owl-prev,
+.owl-next {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block !important;
+}
+.owl-prev {
+  left: -20px;
+}
+.owl-next {
+  right: -20px;
+}
+.owl-prev i,
+.owl-next i {
+  transform: scale(2, 5);
+  color: white;
+  background-color: #4cc1f6;
+  border-radius: 50%;
+  width: 35px;
+}
+.owl-carousel .active span {
+  background: #4cc1f6 !important;
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kérdések és válaszok form</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="index.html"
+          ><div class="d-flex flex-column">
+            <span class="brandtext">Dr. Pásztor Bálint</span>
+            <span><img src="img/Vector(4).png" alt="Line"><span class="bluetext">HIVATALOS OLDALA</span
+            ></span>
+          </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fas fa-bars navmenubar"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navlinksmargin navlinksmarginresp">
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="fab fa-facebook-f navlinkfb"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-instagram navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-youtube navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-linkedin-in navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-twitter navlinks"></i
+              ></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navlinksmargin">
+            <li class="nav-item linkhide">
+                <div class="input-group px-2 py-2">
+                <input type="text" class="form-control" placeholder="Keresés" aria-label="Keresés" aria-describedby="basic-addon2">
+                <span class="input-group-text bgwhite" id="basic-addon2"><i class="fas fa-search bluetext"></i></span>
+                </div>
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Magamrol.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Magamról
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Mikroblog.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Mikroblog
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Beszedek.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Beszédek
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li> 
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Sajtoszoba.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Sajtószoba
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="ModositasiInditvanyok.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Módosítási inditványok
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Esemenynaptar.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Eseménynaptár
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="KerdesekEsValaszok.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Kérdések - Válaszok
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Kapcsolat.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Kapcsolat
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="#"
+                ><span class="text-muted">Srpski </span></a
+              >
+            </li>
+            <li class="nav-item linkhide">
+             <div class="d-flex flex-row justify-content-center">
+              <i class="fab fa-facebook-f navlinkfbwhite mx-4"></i>
+              <i class="fab fa-instagram navlinkswhite mx-4"></i>
+              <i class="fab fa-youtube navlinkswhite mx-4"></i>
+              <i class="fab fa-linkedin-in navlinkswhite mx-4"></i>
+              <i class="fab fa-twitter navlinkswhite mx-4"></i>
+             </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="fas fa-bars navmenubar1 navtoggler"></i
+              >
+              <i class="fas fa-times navtogglerx hide"></i>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---------->
+    <!--NAVTOGGLE-->
+    <div class="hide hideresp togglenav">
+      <div class="darkerbluebg py-3">
+      <div class="d-flex flex-row container justify-content-center">
+        <a href="Beszedek.html"><li class="list-unstyled px-2 pt-1 textwhite">Beszédek <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li> </a>
+        <a href="Sajtoszoba.html"><li class="list-unstyled px-2 pt-1 textwhite">Sajtószoba <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a href="ModositasiInditvanyok.html"><li class="list-unstyled px-2 pt-1 textwhite">Módosítási inditványok <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a href="Esemenynaptar.html"><li class="list-unstyled px-2 pt-1 textwhite">Eseménynaptár <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li> </a>
+        <a href="KerdesekEsValaszok.html"><li class="list-unstyled px-2 pt-1 textwhite">Kérdések - Válaszok <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a>
+          <li class="list-unstyled px-2">
+          <div class="input-group">
+          <input type="text" class="form-control" placeholder="Keresés" aria-label="Keresés" aria-describedby="basic-addon2">
+          <span class="input-group-text bgwhite" id="basic-addon2"><i class="fas fa-search bluetext"></i></span>
+          </div>
+          </li>
+        </a>
+      </div>
+      </div>
+      </div>
+      <!---------->
+    <!--BREADCRUMB-->
+    <div class="container my-2 breadcrumb">
+      <div class="d-flex flex-row w-50 mt-3">
+        <a href="index.html" class="text-muted"><small><u>Kezdőlap</u></small></a>
+        <img src="img/Line 7.png" alt="line" class="img-fluid mx-2">
+        <a href="KerdesekEsValaszok.html" class="text-muted w-50"><small><u>Kérdések és válaszok</u></small></a>
+        <img src="img/Line 7.png" alt="line" class="img-fluid mx-2">
+        <a href="#" class="text-muted w-150"><small><u>Tegyen fel kérdést</u></small></a>
+    </div>
+    </div>
+    <!---------->
+    <!--FORM-->
+    <div class="container mt-2">
+        <div class="mx">
+        <div class="display-4 text-center titles my-3">Kérdések és Válaszok</div>
+        <p class="formtext mt-3">Töltse ki az alábbi beviteli mezőket, majd kattintson az Elküld gombra, amely a lap alján található. A feltett kérdésre, amennyiben senki számára sem sértő, napokon belül választ kap.</p>
+        <form action="#">
+            <label for="name" class="mt-2">Név<span class="lightbluecolor">*</span></label>
+            <input type="text" id="name" placeholder="Petrovics Péter" class="form-control w-100">
+            <div class="row mt-3">
+                <div class="col-lg-6">
+                    <label for="tel">Telefon</label>
+                    <input type="text" id="tel" placeholder="0601234567" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label for="email">Email<span>*</span></label>
+                    <input type="email" id="email" class="form-control">
+                </div>
+            </div>
+            <label for="message" class="mt-3">Üzenet<span>*</span></label>
+            <textarea  id="message" cols="30" rows="10" class="form-control"></textarea>
+            <p class="text-muted text-center">A *-gal jelölt mezől kitöltése kötelező</p>
+            <div class="text-center">
+            <button class="btn mt-2 px-5 py-2 roundedbutton">Küldés</button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <!---------->
+
+    <!--FOOTER-->
+    <div class="bglightblue mt-5" id="footer">
+    <div class="container">
+        <div class="d-flex flex-row pt-4">
+        <div class="footerimages">
+           <img src="img/image 8.png" alt="image8">
+           <img src="img/image 10.png" alt="image10">
+           <img src="img/image 10.png" alt="image10">
+        </div>
+        <div class="mt-1 footerlinks">
+            <i class="fab fa-facebook-f navlinkfb mx-2"></i>
+            <i class="fab fa-instagram navlinks mx-2"></i>
+            <i class="fab fa-youtube navlinks mx-2"></i>
+            <i class="fab fa-linkedin-in navlinks mx-2"></i>
+            <i class="fab fa-twitter navlinks mx-2"></i>
+        </div>
+        </div>
+    </div>
+    </div>
+    <p class="text-center bluetext mt-1">©2021 All rights reserved to Dr Pásztor Bálint</p>
+
+    <!---------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Homepage</title>
+    <!--
+    <style>
+        .owl-prev, .owl-next {
+        width: 20px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block !important;
+       
+    }
+      .owl-prev { left: -20px; }
+      .owl-next { right: -20px; }
+      .owl-prev i, .owl-next i {
+        transform : scale(2,5); 
+        color: white; background-color:  #4cc1f6;
+        border-radius: 50%;
+        width: 35px;
+      }
+    </style>
+    -->
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="#"
+          ><div class="d-flex flex-column">
+            <span class="brandtext">Dr. Pásztor Bálint</span>
+            <span><img src="img/Vector(4).png" alt="Line"><span class="bluetext">HIVATALOS OLDALA</span
+            ></span>
+          </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fas fa-bars navmenubar"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navlinksmargin navlinksmarginresp">
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" aria-current="page" href="#"
+                ><i class="fab fa-facebook-f navlinkfb"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-instagram navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-youtube navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-linkedin-in navlinks"></i
+              ></a>
+            </li>
+            <li class="nav-item navlinkhide">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-twitter navlinks"></i
+              ></a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navlinksmargin">
+            <li class="nav-item linkhide">
+                <div class="input-group px-2 py-2">
+                <input type="text" class="form-control" placeholder="Keresés" aria-label="Keresés" aria-describedby="basic-addon2">
+                <span class="input-group-text bgwhite" id="basic-addon2"><i class="fas fa-search bluetext"></i></span>
+                </div>
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Magamrol.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Magamról
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Mikroblog.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Mikroblog
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Beszedek.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Beszédek
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li> 
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Sajtoszoba.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Sajtószoba
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="ModositasiInditvanyok.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Módosítási inditványok
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="Esemenynaptar.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Eseménynaptár
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkhide linkresp">
+              <a class="nav-link" href="KerdesekEsValaszok.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Kérdések - Válaszok
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="Kapcsolat.html"
+                ><span class="font-weight-bold navlinkblack"
+                  >Kapcsolat
+                  <img
+                    src="img/Line 7.png"
+                    alt="Line"
+                    class="img-fluid ps-1 hideline" /></span
+              ></a>
+              <hr class="bgwhite linkhide">
+            </li>
+            <li class="nav-item linkresp">
+              <a class="nav-link" href="#"
+                ><span class="text-muted">Srpski </span></a
+              >
+            </li>
+            <li class="nav-item linkhide">
+             <div class="d-flex flex-row justify-content-center">
+              <i class="fab fa-facebook-f navlinkfbwhite mx-4"></i>
+              <i class="fab fa-instagram navlinkswhite mx-4"></i>
+              <i class="fab fa-youtube navlinkswhite mx-4"></i>
+              <i class="fab fa-linkedin-in navlinkswhite mx-4"></i>
+              <i class="fab fa-twitter navlinkswhite mx-4"></i>
+             </div>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="fas fa-bars navmenubar1 navtoggler"></i
+              >
+              <i class="fas fa-times navtogglerx hide"></i>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!---------->
+    <!--NAVTOGGLE-->
+    <div class="togglenav hide hideresp">
+      <div class="darkerbluebg py-3">
+      <div class="d-flex flex-row container justify-content-center">
+        <a href="Beszedek.html"><li class="list-unstyled px-2 pt-1 textwhite">Beszédek <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li> </a>
+        <a href="Sajtoszoba.html"><li class="list-unstyled px-2 pt-1 textwhite">Sajtószoba <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a href="ModositasiInditvanyok.html"><li class="list-unstyled px-2 pt-1 textwhite">Módosítási inditványok <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a href="Esemenynaptar.html"><li class="list-unstyled px-2 pt-1 textwhite">Eseménynaptár <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li> </a>
+        <a href="KerdesekEsValaszok.html"><li class="list-unstyled px-2 pt-1 textwhite">Kérdések - Válaszok <span class="ms-2"><img src="img/Line11.png" alt="line" class="img-fluid"></span></li></a>
+        <a>
+          <li class="list-unstyled px-2">
+          <div class="input-group">
+          <input type="text" class="form-control" placeholder="Keresés" aria-label="Keresés" aria-describedby="basic-addon2">
+          <span class="input-group-text bgwhite" id="basic-addon2"><i class="fas fa-search bluetext"></i></span>
+          </div>
+          </li>
+        </a>
+      </div>
+      </div>
+      </div>
+      <!---------->
+      <!--INDEX-->
+    <div id="indexheader">
+    <!--BREADCRUMB-->
+    <div class="container mt-2 breadcrumb">
+    <div class="d-flex flex-row mt-3">
+        <a href="#" class="text-muted"><u>Kezdőlap</u></a>
+        <img src="img/Line 7.png" alt="line" class="img-fluid mx-2">
+    </div>
+    </div>
+    <!---------->
+    <!--BLUEBOX-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 bluebox">
+                <img src="img/image 8.png" alt="vmsz" class="img-fluid indexvmszlogo">
+                <h1 class="py-3 titles">Ecselenség stáron</h1>
+                <small>
+                    Színos patol fetemi kérő áriáján polt halást. Ma e ária télő szomása, a kérő semegesség cafajzata. Vitványos dalkádája a hősi mazmusok cipezése
+                </small>
+            </div>
+        </div>
+    </div>
+    <!------>
+    <!------->
+    </div>
+
+    <!--CAROUSEL-->
+    <div class="container" id="carousel">
+      <div class="carousel-wrapper">
+        <div class="owl-carousel owl-theme">
+          <!--ONE POST-->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <!--ONE POST-->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <!--ONE POST-->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <!--ONE POST-->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <!--ONE POST-->
+          <div class="item mx-1">
+            <div class="card mt-2">
+              <h5 class="card-header">
+                <div class="d-flex flex-row pt-1">
+                <img src="img/Ellipse 10.png" alt="p2" class="img-fluid avatar1 mt-1">
+                <p class="mt-1 ms-1"><u>Dr. Pásztor Bálint </u> <br> <small class="text-muted"><u>január 28. 9:22 </u>
+                </small>                    
+                </p>
+                </div>
+              </h5>
+              <div class="card-body">
+                <img src="img/image 26.png" alt="p1" class="img-fluid w-100">
+                <a href="LatogatasAzOktober10Iskolaban.html"><h5 class="fw-bold mt-2 ms-2 text-dark">Látogatás az Október 10. Általános Iskolában</h5></a>
+                <p class="ms-2">Sose értettem, amikor olyan véleményeket olvastam, hogy miért kell „dicsekedni” a sikeres pályázatokkal, hiszen közpénzek befektetéséről  van szó,
+                  azaz a „nép pénzéről”, illetve a mi adódinárjainkról. Azért, mert ezek a dinárok kerülhettek volna az ország más részeibe is. Ahhoz,
+                  hogy a mi környékünk fejlődjön, a mi intézményeink legyenek korszerűbbek és … <a class="bluetext" href="#">Továbbiak</a></p>
+              </div>
+            </div>
+          </div>
+          <!---->
+      </div>
+        <div class="text-center mt-3">
+        <a href="Mikroblog.html" class="btn roundedbutton">Öszes bejegyzés <i class="fas fa-angle-right pt-1"></i></a>
+        </div>
+    </div>
+    </div>
+    <!------>
+    <!--VIDEOJS-->
+    <div class="container mt-5" id="videos">
+      <h3 class="fw-b text-center titles">Legújabb videók</h3>
+      <div class="row">
+        <!--ONE VIDEO-->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <video
+              id="my-video"
+              class="video-js mx-auto vjs-big-play-centered"
+              controls
+              preload="auto"
+              poster="img/video.png"
+              data-setup="{}"
+            >
+            <source src="img/pasztortalk.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+            <h5 class="mt-2">Govor u Narodnoj skupstini Republike Srbije</h5>
+            <small class="text-muted">2020.december 17.</small>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!--ONE VIDEO-->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <video
+              id="my-video"
+              class="video-js mx-auto vjs-big-play-centered"
+              controls
+              preload="auto"
+              poster="img/video.png"
+              data-setup="{}"
+            >
+            <source src="img/pasztortalk.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+            <h5 class="mt-2">Govor u Narodnoj skupstini dr Balint Pasztor </h5>
+            <small class="text-muted">2020.december 17.</small>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!--ONE VIDEO-->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <video
+              id="my-video"
+              class="video-js mx-auto vjs-big-play-centered"
+              controls
+              preload="auto"
+              poster="img/video.png"
+              data-setup="{}"
+            >
+            <source src="img/pasztortalk.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+            <h5 class="mt-2">Govor u Narodnoj skupstini</h5>
+            <small class="text-muted">2020.december 17.</small>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!--ONE VIDEO-->
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <video
+              id="my-video"
+              class="video-js mx-auto vjs-big-play-centered"
+              controls
+              preload="auto"
+              poster="img/video.png"
+              data-setup="{}"
+            >
+            <source src="img/pasztortalk.mp4" type="video/mp4" />
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+              </p>
+            </video>
+            <h5 class="mt-2">Govor u Narodnoj skupstini dr Balint Pasztor</h5>
+            <small class="text-muted">2020.december 17.</small>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+      <div class="text-center mt-3 mb-5">
+        <a href="Sajtoszoba.html" class="btn roundedbutton">Sajtószoba <i class="fas fa-angle-right pt-1"></i></a>
+      </div>
+    </div>
+    <!--------->
+    <!--CALENDAR-->
+    <div class="bgwhite py-5">
+      <h3 class="text-center my-3 titles">Eseménynaptár</h3>
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-4">
+          <!--the calendar-->
+          <div class="calendar calendar-first" id="calendar_first">
+				    <div class="calendar_header bglightblue d-flex">
+				        <button class="switch-month switch-left ms-2"> <i class="fa fa-chevron-left"></i></button>
+				         <h2 class="ms-4 mt-1"></h2>
+				        <button class="switch-month switch-right ms-3"> <i class="fa fa-chevron-right"></i></button>
+				    </div>
+				    <div class="calendar_weekdays"></div>
+				    <div class="calendar_content"></div>
+					</div>
+          <!------>
+        </div>
+        <div class="col-lg-8">
+            <div class="d-flex flex-row bglightblue py-1">
+                <img src="img/Vector(6).png" alt="calendar" class="img-fluid me-2 mt-1 cal">
+                <p class="mt-1">2020. december 11. csütörtök</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">10:00-Szabadka</div>
+                <div class="col-lg-6">Találkozó a Caritas vezetőivel</div>
+            </div>
+            <div class="row my-4">
+                <div class="col-lg-6">11:00 - Torontálvásárhely</div>
+                <div class="col-lg-6">Miben hasonlít Torontálvásárhely és Székelykeve Kraljevora és Majdanpekre?</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">12:00-Szabadka</div>
+                <div class="col-lg-6">Találkozó a Matias Emulizio közügyes vezetőivel</div>
+            </div>
+        </div>
+       </div>
+       </div>
+    </div>
+    </div>
+    <!---->
+    <!--SOCIALMEDIA-->
+    <h3 class="fw-b text-center titles">Tartson velem</h3>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <h5 class="text-center">
+            Facebookon
+          </h5>
+          <img src="img/fb.png" alt="fb" class="img-fluid">
+          <div class="text-center mt-3 mb-3">
+            <a href="https://www.facebook.com/drpasztorbalint" target="blank" class="btn roundedbutton px-5"> Követés <i class="fas fa-angle-right pt-1"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <h5 class="text-center">
+            Youtubeon
+          </h5>
+          <img src="img/yt.png" alt="fb" class="img-fluid">
+          <div class="text-center mt-3 mb-3">
+            <a href="https://www.youtube.com/user/pasztorbalintrs" target="blank" class="btn roundedbutton px-5"> Felíratkozás <i class="fas fa-angle-right pt-1"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <h5 class="text-center">
+            Instagramon
+          </h5>
+          <img src="img/instagram.png" alt="fb" class="img-fluid">
+          <div class="text-center mt-3 mb-3">
+            <a href="https://www.instagram.com/pasztor.balint/" target="blank" class="btn roundedbutton px-5"> Követés <i class="fas fa-angle-right pt-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <!--FOOTER-->
+    <div class="bglightblue mt-5" id="footer">
+    <div class="container">
+        <div class="d-flex flex-row pt-4">
+        <div class="footerimages">
+           <img src="img/image 8.png" alt="image8">
+           <img src="img/image 10.png" alt="image10">
+           <img src="img/image 10.png" alt="image10">
+        </div>
+        <div class="mt-1 footerlinks">
+            <i class="fab fa-facebook-f navlinkfb mx-2"></i>
+            <i class="fab fa-instagram navlinks mx-2"></i>
+            <i class="fab fa-youtube navlinks mx-2"></i>
+            <i class="fab fa-linkedin-in navlinks mx-2"></i>
+            <i class="fab fa-twitter navlinks mx-2"></i>
+        </div>
+        </div>
+    </div>
+    </div>
+    <p class="text-center bluetext mt-1">©2021 All rights reserved to Dr Pásztor Bálint</p>
+
+    <!---------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/calendar.js"></script>
+    <!--
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay:true,
+            loop:true,
+            autoplayHoverPause:true,
+            items:3,
+            nav:true,
+            navText:['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+            dots:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                728:{
+                    items:2
+                },
+                1200:{
+                    items:3
+                }
+            }
+        });
+    </script>
+    -->
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+  </body>
+</html>
