@@ -10,6 +10,16 @@ $("document").ready(function () {
       $(".navtogglerx").addClass("hide");
   });
 
+  $(".navmenubutton").on("click", function () {
+    $(".navmenubuttonx").removeClass("hide");
+    $(".navmenubutton").addClass("hide");
+  });
+
+  $(".navmenubuttonx").on("click", function () {
+    $(".navmenubutton").removeClass("hide");
+    $(".navmenubuttonx").addClass("hide");
+  });
+
   $(".owl-carousel").owlCarousel({
     autoplay: true,
     loop: true,
@@ -17,8 +27,8 @@ $("document").ready(function () {
     items: 3,
     nav: true,
     navText: [
-      '<i class="fas fa-arrow-left" aria-hidden="true"></i>',
-      '<i class="fas fa-arrow-right" aria-hidden="true"></i>',
+      '<i class="fas fa-arrow-left carouselarrows" ></i>',
+      '<i class="fas fa-arrow-right carouselarrows" ></i>',
     ],
     dots: true,
     responsive: {

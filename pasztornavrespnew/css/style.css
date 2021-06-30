@@ -71,13 +71,22 @@ nav .navmenubar1 {
   padding: 16px;
   border-radius: 50%;
 }
+nav .navmenubarx {
+  background-color: #4cc1f6;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 17.5px;
+  padding-left: 17.5px;
+  border-radius: 50%;
+}
 nav .navtogglerx {
   background-color: #4cc1f6;
   color: white;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-right: 17px;
-  padding-left: 17px;
+  padding-right: 17.5px;
+  padding-left: 17.5px;
   border-radius: 50%;
 }
 
@@ -97,7 +106,7 @@ nav .navtogglerx {
 /*INDEX*/
 #indexheader {
   background-image: url("../img/indexheader.png");
-  min-height: 95vh;
+  min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,6 +121,12 @@ nav .navtogglerx {
 }
 #carousel .avatar {
   height: 50px !important;
+}
+#carousel .h {
+  height: 280px;
+}
+#carousel .card {
+  height: 650px;
 }
 /*------*/
 /*KerdesekEsValaszokFormPage*/
@@ -348,7 +363,7 @@ nav .navtogglerx {
   /*-------*/
   /*INDEX*/
   #indexheader .bluebox {
-    margin-top: 250px;
+    margin-top: 140px;
   }
   #videos #my-video {
     width: 280px;
@@ -361,7 +376,13 @@ nav .navtogglerx {
   #carousel {
     margin-top: -150px;
   }
-  
+  .mxindex {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .videocard {
+    height: 270px;
+  }
   /*-----*/
   /*-----*/
   /*KerdesekEsValaszokFormPage*/
@@ -448,7 +469,7 @@ nav .navtogglerx {
   #indexheader .bluebox {
     margin-top: 450px;
   }
-  #indexheader {  
+  #indexheader {
     background-image: url("../img/Frame217.png");
     min-height: 95vh;
     background-repeat: no-repeat;
@@ -530,7 +551,7 @@ nav .navtogglerx {
   #talks .moresearch {
     margin-top: 10px;
   }
-  #talks .talksimg{
+  #talks .talksimg {
     width: 100%;
   }
   /*------*/
@@ -565,6 +586,6 @@ nav .navtogglerx {
 /*------*/
 @media only screen and (max-width: 1500px) {
   nav .navlinksmarginresp {
-   display: none;
+    display: none;
   }
 }
