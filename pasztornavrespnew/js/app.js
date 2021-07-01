@@ -1,4 +1,5 @@
 $("document").ready(function () {
+  /*DESKTOP NAV TOGGLE*/
   $(".navtoggler").on("click", function () {
     $(".togglenav").slideToggle("slow"),
       $(".togglenav").removeClass("hide"),
@@ -12,7 +13,7 @@ $("document").ready(function () {
       $(".navtoggler").removeClass("hide"),
       $(".navtogglerx").addClass("hide");
   });
-
+  /*MOBILE NAV TOGGLE*/
   $(".navmenubutton").on("click", function () {
     $(".navmenubuttonx").removeClass("hide");
     $(".navmenubutton").addClass("hide");
@@ -22,7 +23,7 @@ $("document").ready(function () {
     $(".navmenubutton").removeClass("hide");
     $(".navmenubuttonx").addClass("hide");
   });
-
+  /*CAROUSEL ON INDEX PAGE*/
   $(".owl-carousel").owlCarousel({
     autoplay: true,
     loop: true,

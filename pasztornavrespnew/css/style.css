@@ -28,16 +28,19 @@ nav .bluetext {
 }
 nav .navlinks {
   background-color: #4cc1f6;
-  padding: 11px;
+  width: 30px;
+  height: 30px;
+  padding-top: 6px;
+  text-align: center;
   color: white;
   border-radius: 50%;
 }
 nav .navlinkfb {
   background-color: #4cc1f6;
-  padding-right: 13px;
-  padding-left: 13px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  width: 30px;
+  height: 30px;
+  padding-top: 6px;
+  text-align: center;
   color: white;
   border-radius: 50%;
 }
@@ -69,15 +72,15 @@ nav .navmenubar1 {
   background-color: #4cc1f6;
   color: white;
   padding: 16px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 nav .navmenubarx {
   background-color: #4cc1f6;
   color: white;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-right: 17.5px;
-  padding-left: 17.5px;
+  padding-right: 18px;
+  padding-left: 18px;
   border-radius: 50%;
 }
 nav .navtogglerx {
@@ -126,7 +129,10 @@ nav .navtogglerx {
   height: 280px;
 }
 #carousel .card {
-  height: 650px;
+  height: 680px;
+}
+#indexheader .blueboxzindex {
+  opacity: 1;
 }
 /*------*/
 /*KerdesekEsValaszokFormPage*/
@@ -171,16 +177,18 @@ nav .navtogglerx {
 }
 .pagi a {
   text-decoration: none;
+  padding-top: 5px;
 }
 .pagi .active {
   border-radius: 50%;
   color: white;
-  padding-right: 11px;
-  padding-left: 11px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  padding-left: 10.5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   background-color: #4cc1f6;
-  margin-top: -5px;
+  margin-top: -3px;
 }
 /*-------*/
 /*TALKS*/
@@ -304,6 +312,9 @@ nav .navtogglerx {
   background-color: white;
   color: #4cc1f6;
 }
+#qa .boxradius {
+  border-radius: 10px;
+}
 /*------*/
 /*QA*/
 #qa .avatar {
@@ -325,16 +336,19 @@ nav .navtogglerx {
 }
 #footer .navlinks {
   background-color: #4cc1f6;
-  padding: 11px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding-top: 10px;
   color: white;
   border-radius: 50%;
 }
 #footer .navlinkfb {
   background-color: #4cc1f6;
-  padding-right: 13px;
-  padding-left: 13px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding-top: 10px;
   color: white;
   border-radius: 50%;
 }
@@ -367,8 +381,9 @@ nav .navtogglerx {
     margin-top: 140px;
   }
   #videos #my-video {
-    width: 280px;
+    width: 270px;
     height: 150px;
+    padding-right: 15px;
   }
   #carousel .avatar1 {
     height: 50px;
@@ -382,7 +397,8 @@ nav .navtogglerx {
     margin-right: 50px;
   }
   .videocard {
-    height: 270px;
+    height: 290px;
+    width: 305px;
   }
   /*-----*/
   /*-----*/
@@ -469,6 +485,7 @@ nav .navtogglerx {
   /*INDEX*/
   #indexheader .bluebox {
     margin-top: 450px;
+    width: 100%;
   }
   #indexheader {
     background-image: url("../img/Frame217.png");
