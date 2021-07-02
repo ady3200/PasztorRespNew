@@ -20,15 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/tagsinput.css">
     <link rel="stylesheet" href="css/style.css" />
-    <title>Sajtószoba</title>
+    <title>Beszédek</title>
   </head>
   <body>
     <!--NAVBAR-->
@@ -37,7 +32,7 @@
         <a class="navbar-brand" href="index.html"
           ><div class="d-flex flex-column">
             <span class="brandtext">Dr. Pásztor Bálint</span>
-            <span><img src="img/Vector(4).png" alt="Line"><span class="bluetext">HIVATALOS OLDALA</span
+            <spa class="brandtextdown"><img src="img/Vector(4).png" alt="Line"><span class="bluetext">HIVATALOS OLDALA</span
             ></span>
           </div></a
         >
@@ -188,7 +183,7 @@
             </li>
             <li class="nav-item linkresp">
               <a class="nav-link" href="#"
-                ><span class="text-muted">Srpski </span></a
+                ><span class="text-muted langresp">Srpski </span></a
               >
             </li>
             <li class="nav-item linkhide">
@@ -293,9 +288,9 @@
           <div class="col-lg-1">
             <p class="text-muted mt-2 me-2"><small>Szűrés:</small></p>
           </div>
-          <div class="col-lg-8">
-            <ul class="nav nav-pills widgetsmobile">
-              <li class="nav-item me-3">
+          <div class="col-lg-10">
+            <ul class="nav nav-pills widgetsmobile w-100">
+              <li class="nav-item me-3 mb-3">
                 <small
                   ><a class="nav-link widgets" href="#"
                     ><img
@@ -307,7 +302,7 @@
                   ></small
                 >
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-3 mb-3">
                 <small
                   ><a class="nav-link widgets" href="#"
                     ><img
@@ -319,7 +314,7 @@
                   ></small
                 >
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-3 mb-3">
                 <small
                   ><a class="nav-link widgets" href="#"
                     ><img
@@ -331,13 +326,11 @@
                   ></small
                 >
               </li>
-              <li class="nav-item mx-3">
-                <small
-                  ><a class="nav-link widgets moresearch" href="#"
-                    ><i class="fas fa-search me-1"></i> további szűrés</a
-                  ></small
-                >
-              </li>
+              <div class="wrapper">
+                <input type="text" id="search" class="form-control" placeholder="Tovabbi Szures.." data-role="tagsinput">
+                <div class="results show list-unstyled">
+                </div>
+              </div>
             </ul>
           </div>
         </div>
@@ -745,6 +738,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/tagsinput.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
