@@ -90,6 +90,7 @@
       // If SELECT but not multiple, remove current tag
       if (self.isSelect && !self.multiple && self.itemsArray.length > 0)
         self.remove(self.itemsArray[0]);
+      //console.log(self.itemsArray);
 
       if (typeof item === "string" && this.$element[0].tagName === "INPUT") {
         var delimiter = self.options.delimiterRegex
@@ -493,7 +494,7 @@
       );
 
       self.$container.on(
-        "keypress",
+        "keydown",
         "input",
         $.proxy(function (event) {
           var $input = $(event.target);
@@ -506,6 +507,24 @@
           var text = $input.val(),
             maxLengthReached =
               self.options.maxChars && text.length >= self.options.maxChars;
+          //This changed here
+          var button = document.getElementById("btnfilter");
+          /*with input text*/
+          if (text.length > 0) {
+            button.style.visibility = "visible";
+          } else {
+            button.style.visibility = "hidden";
+          }
+          /* with array
+          let tagarray = this.itemsArray;
+          console.log(tagarray);
+          console.log(tagarray.value);
+          if (tagarray.length > 0) {
+            button.style.visibility = "visible";
+          } else {
+            button.style.visibility = "hidden";
+          }
+          */
           if (
             self.options.freeInput &&
             (keyCombinationInList(event, self.options.confirmKeys) ||

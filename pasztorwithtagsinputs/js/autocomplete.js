@@ -1,4 +1,5 @@
 //not working on the tagsinput input yet
+/*
 let badges = ["Szabadka", "Orban", "unnep", "korona", "iskola", "tanitas"];
 
 const searchInput = document.getElementById("search");
@@ -29,3 +30,4 @@ function renderResults(results) {
   searchWrapper.classList.add("show");
   resultsWrapper.innerHTML = `<ul>${content}</ul>`;
 }
+*/
